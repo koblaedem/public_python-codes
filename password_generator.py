@@ -42,7 +42,7 @@ def clipboard():
 copy_button=Button(main, text='copy password' , command=clipboard,state=DISABLED)
 #clear button
 def clear():
-    p_lenght.delete(0,'end') 
+   p_value.delete(0,'end') #fix bug 23/07/2025
 erase=Button(main,text='Clear',command=clear)
 
 
