@@ -42,7 +42,7 @@ def clipboard():
 copy_button=Button(main, text='copy password' , command=clipboard,state=DISABLED)
 #clear button
 def clear():
-    p_lenght.delete(0,'end')
+    p_length.delete(0,'end') 
 erase=Button(main,text='Clear',command=clear)
 
 
@@ -53,7 +53,7 @@ end = Button(main, text='Exit', command=main.destroy)
 final=Button(main,text='Generate',command = generator)
 
 #copyright message
-copyright_display=Label(main,text='© 2024 ea.kobla.All rights reserved',font=('Arial',10))
+copyright_display=Label(main,text='© 2024 _theanalyst200.All rights reserved',font=('Arial',10))
 
 main.resizable(False,False)
 main.title('Password Generator v0.1')
